@@ -2,7 +2,7 @@ package main.Searching;
 
 public class binarysearch {
 
-  public static int binarysearchImplementation(int[] nums1, int m){
+  public static int binarySearchImplementation(int[] nums1, int m){
     // Find a int in a sorted array
 
     // Higher point
@@ -36,7 +36,7 @@ public class binarysearch {
   public static void main(String args[]) {
     int arr[] = { 2, 3, 4, 10, 40 };
     int x = 3;
-    int result = binarysearchImplementation(arr, x);
+    int result = binarySearchImplementation(arr, x);
     if (result == -1)
         System.out.println(
             "Element is not present in array");
