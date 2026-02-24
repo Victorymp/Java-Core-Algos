@@ -34,7 +34,7 @@ public class binarysearch {
   }
 
   public static void main(String args[]) {
-    int arr[] = { 2, 3, 4, 10, 40 };
+    int[] arr = { 2, 3, 4, 10, 40 };
     int x = 3;
     int result = binarySearchImplementation(arr, x);
     if (result == -1)
