@@ -11,8 +11,8 @@ public class binarysearch {
     // Lower point
     int pntL = 0;
 
-    while(pntL < pntR){
-      int pntM = pntL +((pntR - pntL) / 2);
+    while(pntL <= pntR){
+      int pntM = pntL +(pntR - pntL) / 2;
       // Base case
       if (nums1[pntM] == m){
         return pntM;
@@ -27,7 +27,7 @@ public class binarysearch {
       // If the value is less than the midpoint 
       // move the right pointer to the midpoint
       else {
-        pntR = pntM +1;
+        pntR = pntM -1;
       }
     }
     return -1;
